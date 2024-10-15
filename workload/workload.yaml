@@ -13,7 +13,7 @@ spec:
         edge: "true"
       environment: dev
       manifests:
-        repo: https://github.com/microsoft/kalypso-app-gitops
+        repo: https://github.com/starlord-daniel/dhkalypso-app-gitops
         branch: dev
         path: ./functional-test
     - name: performance-test
@@ -22,7 +22,7 @@ spec:
         edge: "false"
       environment: dev
       manifests:
-        repo: https://github.com/microsoft/kalypso-app-gitops
+        repo: https://github.com/starlord-daniel/dhkalypso-app-gitops
         branch: dev
         path: ./performance-test
     - name: uat-test
@@ -30,6 +30,6 @@ spec:
         purpose: uat-test
       environment: stage
       manifests:
-        repo: https://github.com/microsoft/kalypso-app-gitops
+        repo: https://github.com/starlord-daniel/dhkalypso-app-gitops
         branch: stage
         path: ./uat-test                 
